@@ -1,0 +1,30 @@
+body{
+    background-color:#f4f6f9;
+    font-family:Arial, sans-serif;
+}
+
+table{
+    margin:auto;
+    border-collapse:collapse;
+}
+
+a{
+    text-decoration:none;
+    color:darkgreen;
+    font-weight:bold;
+}
+
+a:hover{
+    color:orange;
+}
+
+h1{
+    color:#1b5e20;
+}
+
+input[type="submit"]{
+    background:green;
+    color:white;
+    border:none;
+    padding:8px;
+}
