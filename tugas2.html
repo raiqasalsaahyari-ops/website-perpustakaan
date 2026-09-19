@@ -1,59 +1,103 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Form Anggota Perpustakaan</title>
-    <link rel="stylesheet" href="form.css">
+    <head>
+        <title>Perpustakaan Digital</title>
+        <link rel="stylesheet" href="form.css">
 </head>
-<body>
 
-<h1>Form Pendaftaran Anggota Perpustakaan</h1>
+    <body>
+
+        <table border="1" width="900"height="600">
+        
+             <!--HEADER-->
+             <tr height="150"bgcolor="#D9EAD3">
+                <td colspan="2" align="center">
+                    <h1>Perpustakaan Digital</h1>
+                    <p>Universitas Sumatera Utara</p>
+                </td>
+            </tr>
+            
+
+        <hr>
+
+        <!--MAIN MENU-->
+        <tr height="50"bgcolor="#93C47D">
+            <td colspan="2" align="center">
+                <a href="Beranda">Beranda</a>&nbsp;&nbsp;&nbsp;
+                <a href="Koleksi">Koleksi</a>&nbsp;&nbsp;&nbsp;
+                <a href="Layanan">Layanan</a>&nbsp;&nbsp;&nbsp;
+                <a href="Kontak">Kontak</a>&nbsp;&nbsp;&nbsp;
+
+            </td>
+        </tr>
+        <!--SIDEBAR + CONTENT-->
+        <tr>
+
+            <!--SIDEBAR KIRI-->
+            <td width="25%" valign="top"bgcolor="#E2F0D9">
+                <h2 >MENU</h2>
+
+
+                    <li><a href="Buku">Buku</a></li>
+                    <li><a href="E-book">E-book</a></li>
+                    <li><a href="Jurnal">Jurnal</a></li>
+                    <li><a href="Informasi">Informasi</a></li>
+                </ul>
+            </td>
+
+            <!--CONTENT KANAN-->
+           <td width="75%" valign="top"bgcolor="#E2F0D9">
+            <center>
+                <h2>Selamat Datang di website Perpustakaan Digital</h2>
+                <img src="images.jpg"width="700"height="300">
+                </center>
+                <p>Perpustakaan digital menyediakan berbagai koleksi informasi yang dapat digunakan untuk mendukung kegiatan belajar dan penelitian.</p>
+
+                <h3>Kolesi Perpustakaan</h3>
+                <h3>Form Pendaftaran Anggota</h3>
 
 <form>
 
-Nama:
-<br>
-<input type="text">
+Nama Lengkap:<br>
+<input type="text"><br><br>
 
-<br><br>
+Password:<br>
+<input type="password"><br><br>
 
-Password:
-<br>
-<input type="password">
+Alamat:<br>
+<textarea rows="4" cols="30"></textarea><br><br>
 
-<br><br>
-
-Alamat:
-<br>
-<textarea></textarea>
-
-<br><br>
-
-Jenis Kelamin:
-<br>
+Jenis Kelamin:<br>
 <input type="radio" name="jk"> Laki-laki
 <input type="radio" name="jk"> Perempuan
-
 <br><br>
 
-Hobi:
-<br>
+Hobi:<br>
 <input type="checkbox"> Membaca
 <input type="checkbox"> Menulis
-
+<input type="checkbox"> Meneliti
 <br><br>
 
-Program Studi:
-<br>
+Program Studi:<br>
 <select>
     <option>Ilmu Perpustakaan</option>
     <option>Ilmu Komputer</option>
+    <option>Sastra Inggris</option>
 </select>
 
 <br><br>
 
-<input type="submit" value="Kirim">
+<input type="submit" value="Daftar">
 
 </form>
+                <p>Koleksi yang tersedia meliputi buku, e-book, jurnal, dan informasi lainnya.</p>
 
-</body>
-</html>
+            </td>
+
+        </tr>
+
+        <!--FOOTER-->
+        <tr height="60"bgcolor="#93C47D">
+            <td colspan="2" align="center">
+                <p>&copy; 2026 Universitas Sumatera Utara</p>
+            </td>
